@@ -1,0 +1,29 @@
+@media (max-width:481px){
+header{
+    padding-inline: 8px;
+}
+
+.login_btn{
+    display: none;
+}
+
+.user_btn{
+    display: block;
+    display: flex;
+    width: 32px;
+    height: 32px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid #F30AEA;
+}
+
+.shopping_btn{
+    width: 32px;
+    height: 32px;   
+}
+
+}

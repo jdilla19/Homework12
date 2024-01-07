@@ -1,0 +1,104 @@
+.container{
+    width: min(1440px, 100%);
+    margin: auto;
+}
+
+header{
+    background-color: #2E0230;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 34px 72px;
+}
+
+.header_searchbar {
+    display: flex;
+    width: 560px;
+    height: 48px; 
+    padding-left: 16px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 303px; 
+    border-radius: 8px;
+    border: 1px solid rgba(176, 82, 181, 0.79);
+    box-shadow: 0px -2px 5px 0px #F1ACEE;
+     
+}
+
+input{
+    background-color:transparent;  
+    border: none;
+    color: #9E8D9EB5;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.search_btn{
+    background-color: #B052B5;
+    display: flex;
+    /* width: 48px;
+    height: 48px; */
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 0px 8px 8px 0px;
+     border: none;  
+}
+
+.fa-magnifying-glass {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+
+.searchbar2{
+ display: none;  
+}
+
+
+.btn_container{
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.user_btn{
+    display: none;
+}
+
+.login_btn{
+    background-color:transparent; 
+    border-radius: 8px;
+    border: 1px solid #F30AEA;
+    padding: 8px 16px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+
+}
+
+.shopping_btn{
+border-radius: 8px;
+background: #F30AEA;
+border: none;
+display: flex;
+width: 42px;
+height: 42px;
+padding: 13px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+}
+
+.fa-cart-shopping{
+color: #FFF;
+}
+

@@ -1,0 +1,20 @@
+@media (max-width: 931px) {
+    
+    header{
+        padding: 34px 40px;
+    }
+
+
+    .header_searchbar {
+        display: none;
+    }
+
+    .searchbar2{
+        display: block;
+    }
+
+    .fa-magnifying-glass{
+        font-size: 32px;
+    }
+
+}
